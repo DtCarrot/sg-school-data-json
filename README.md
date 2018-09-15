@@ -21,10 +21,10 @@ https://data.gov.sg/dataset/school-directory-and-information
 ```
 
 ## Geocoding
-Geocoding is done using the Google Geocoding API - You can get the API key via the Google Cloud Platform.
+Geocoding is done using the Google Geocoding API. You can get the API key via the Google Cloud Platform.
 
 ## External libraries used 
-dotenv - To store environment variables - **API Keys should never be exposed in the code!!!!**
-requests - For HTTP Request to Google Geocoding API
-pandas - To parse csv file
+1. dotenv    - To store environment variables **API Keys should never be exposed in the code!!!!**
+2. requests  - For HTTP Request to Google Geocoding API
+3. panda     - To parse csv file
 
